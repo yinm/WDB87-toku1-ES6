@@ -1,0 +1,24 @@
+{
+  "name": "WDB87-toku1-ES6",
+  "version": "1.0.0",
+  "description": "[WEB+DB PRESS Vol.87 - 今すぐ活かす！ 最新JavaScript 進化した仕様ECMAScript 6をまるごと解説](http://gihyo.jp/magazine/wdpress/archive/2015/vol87)をやってます。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yinm/WDB87-toku1-ES6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yinm/WDB87-toku1-ES6/issues"
+  },
+  "homepage": "https://github.com/yinm/WDB87-toku1-ES6#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1"
+  }
+}

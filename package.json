@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "chapter3": "babel chapter3/ES6 -w --out-dir chapter3/ES5"
+    "chapter3": "babel chapter3/ES6 -w --out-dir chapter3/ES5",
+    "chapter6": "babel chapter6/ES6 -w --out-dir chapter6/ES5"
   },
   "repository": {
     "type": "git",

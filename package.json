@@ -4,7 +4,8 @@
   "description": "[WEB+DB PRESS Vol.87 - 今すぐ活かす！ 最新JavaScript 進化した仕様ECMAScript 6をまるごと解説](http://gihyo.jp/magazine/wdpress/archive/2015/vol87)をやってます。",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chapter3": "babel chapter3/ES6 -w --out-dir chapter3/ES5"
   },
   "repository": {
     "type": "git",

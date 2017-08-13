@@ -19,6 +19,7 @@
   "homepage": "https://github.com/yinm/WDB87-toku1-ES6#readme",
   "devDependencies": {
     "babel": "^6.23.0",
-    "babel-cli": "^6.24.1"
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
   }
 }

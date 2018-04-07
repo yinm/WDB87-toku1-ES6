@@ -1,3 +1,4 @@
+// 2nd
 const counter = {
   count: 0,
   increment() {
@@ -6,9 +7,5 @@ const counter = {
 }
 
 console.log(counter.count)
-counter.increment()
-console.log(counter.count)
-
-counter.increment()
 counter.increment()
 console.log(counter.count)

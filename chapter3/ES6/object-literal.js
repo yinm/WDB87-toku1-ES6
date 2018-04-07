@@ -1,9 +1,14 @@
-// 2nd
-const
-  key = 'foo',
-  obj = {
-    [key]: 0,
-    [`${key}_bar`]: 1,
+const counter = {
+  count: 0,
+  increment() {
+    this.count++
   }
+}
 
-console.log(obj)
+console.log(counter.count)
+counter.increment()
+console.log(counter.count)
+
+counter.increment()
+counter.increment()
+console.log(counter.count)

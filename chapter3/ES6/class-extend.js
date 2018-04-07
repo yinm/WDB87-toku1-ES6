@@ -1,37 +1,38 @@
 // super class
 class Person {
   constructor(name) {
-    this.name = name;
+    this.name = name
   }
 
   greet() {
-    console.log("Hello, I'm " + this.name);
+    console.log(`Hello, I'm ${this.name}`)
   }
 
   static create(name) {
-    return new Person(name);
+    return new Person(name)
   }
 }
 
 // extend class
 class Author extends Person {
-  constructor (name, book) {
-    // call constructor of super class
-    super(name);
-    this.book = book;
+  constructor(name, book) {
+    super(name)
+    this.book = book
   }
 
-  // override instance method
   greet() {
-    super.greet();
-    console.log("I wrote " + this.book);
+    super.greet()
+    console.log(`I wrote ${this.book}`)
   }
 
-  // override static method
   static create(name, book) {
-    return new Author(name, book);
+    return new Author(name, book)
   }
 }
 
-const author = new Author("Gillian Flynn", "Gone Girl");
-author.greet();
+const author = new Author('Gillian Flynn', 'Gone Girl')
+author.greet()
+
+const john = Author.create('john', 'boooooook')
+john.greet()
+

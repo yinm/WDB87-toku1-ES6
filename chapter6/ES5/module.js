@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -10,9 +10,9 @@ exports.bar = bar;
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var foo = exports.foo = "foo!";
+var foo = exports.foo = 'foo!';
 function bar() {
-  console.log('bar!!!!');
+  console.log('bar function');
 }
 
 var Baz = exports.Baz = function () {
@@ -21,8 +21,10 @@ var Baz = exports.Baz = function () {
   }
 
   _createClass(Baz, [{
-    key: "baz",
-    value: function baz() {}
+    key: 'baz',
+    value: function baz() {
+      console.log('Baz#baz');
+    }
   }]);
 
   return Baz;

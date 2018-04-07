@@ -1,7 +1,5 @@
-export const foo = "foo!";
-export function bar() {
-  console.log('bar!!!!');
-}
+export const foo = 'foo!'
+export function bar() { console.log('bar function') }
 export class Baz {
-  baz() {}
+  baz() { console.log('Baz#baz') }
 }

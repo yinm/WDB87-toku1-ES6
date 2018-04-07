@@ -1,5 +1,8 @@
 const
-  foo = 0,
-  bar = 1
+  key = 'foo',
+  obj = {
+    [key]: 0,
+    [key + '_bar']: 1,
+  }
 
-console.log({foo, bar})
+console.log(obj)

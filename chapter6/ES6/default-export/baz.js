@@ -1,5 +1,5 @@
 export default class {
   constructor() {
-    console.log('Baz!');
+    console.log('Baz!')
   }
 }

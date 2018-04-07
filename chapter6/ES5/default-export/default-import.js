@@ -1,14 +1,14 @@
-"use strict";
+'use strict';
 
-var _foo = require("./foo");
+var _foo = require('./foo');
 
 var _foo2 = _interopRequireDefault(_foo);
 
-var _bar = require("./bar");
+var _bar = require('./bar');
 
 var _bar2 = _interopRequireDefault(_bar);
 
-var _baz = require("./baz");
+var _baz = require('./baz');
 
 var _baz2 = _interopRequireDefault(_baz);
 

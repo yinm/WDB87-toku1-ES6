@@ -5,5 +5,5 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 exports.default = function () {
-  console.log('bar!!!!');
+  console.log('bar!');
 };

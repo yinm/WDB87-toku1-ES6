@@ -10,9 +10,10 @@ exports.bar = bar;
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
+// 2nd
 var foo = exports.foo = 'foo!';
 function bar() {
-  console.log('bar function');
+  console.log('bar');
 }
 
 var Baz = exports.Baz = function () {
